@@ -48,7 +48,7 @@
   "scripts": {
     "build": "tsup src/index.ts --format esm,cjs --dts",
     "build-storybook": "storybook build",
-    "dev": "vite",
+    "dev": "tsup src/index.ts --format esm,cjs --dts --watch",
     "prepare": "npm run build",
     "release": "node generate-index.mjs && standard-version && git push --follow-tags && npm publish --access public",
     "storybook": "storybook dev -p 6006"
