@@ -50,7 +50,7 @@
     "build-storybook": "storybook build",
     "dev": "vite",
     "prepare": "npm run build",
-    "release": "standard-version && git push --follow-tags && npm publish --access public",
+    "release": "node generate-index.mjs && standard-version && git push --follow-tags && npm publish --access public",
     "storybook": "storybook dev -p 6006"
   }
 }
