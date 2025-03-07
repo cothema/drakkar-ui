@@ -1,15 +1,15 @@
-import type { Meta, StoryObj } from "@storybook/react";
-import { ChipButton } from "./ChipButton";
+import type {Meta, StoryObj} from "@storybook/react";
+import {ChipButton} from "./ChipButton";
 import {faEnvelopeOpen} from "@fortawesome/free-solid-svg-icons/faEnvelopeOpen";
 
 const meta: Meta<typeof ChipButton> = {
-  title: "UI/ChipButton",
+  title: "Drakkar UI Atoms/Chip Button",
   component: ChipButton,
   tags: ["autodocs"],
   argTypes: {
-    title: { control: "text" },
-    children: { control: "text" },
-    faIcon: { control: "text" }, // Cannot directly use FontAwesomeIcon here
+    title: {control: "text"},
+    children: {control: "text"},
+    faIcon: {control: "text"}, // Cannot directly use FontAwesomeIcon here
   },
 };
 

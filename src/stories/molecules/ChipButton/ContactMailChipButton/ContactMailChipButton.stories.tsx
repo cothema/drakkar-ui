@@ -1,13 +1,13 @@
-import type { Meta, StoryObj } from "@storybook/react";
-import { ContactMailChipButton } from "./ContactMailChipButton";
+import type {Meta, StoryObj} from "@storybook/react";
+import {ContactMailChipButton} from "./ContactMailChipButton";
 
 const meta: Meta<typeof ContactMailChipButton> = {
-  title: "UI/ContactMailChipButton",
+  title: "Drakkar UI Molecules/Chip Button/Contact Mail Chip Button",
   component: ContactMailChipButton,
   tags: ["autodocs"],
   argTypes: {
-    title: { control: "text" },
-    email: { control: "text" },
+    title: {control: "text"},
+    email: {control: "text"},
   },
 };
 
