@@ -1,7 +1,13 @@
 # Changelog
 
-All notable changes to this project will be documented in this file.
-See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+## [0.4.0](https://github.com/cothema/drakkar-ui/compare/v0.3.0...v0.4.0) (2025-03-07)
+
+
+### Features
+
+* Created Page Container and Article Card components ([ea816d2](https://github.com/cothema/drakkar-ui/commit/ea816d265a4f7507ce042175b0ae166509324beb))
 
 ### [0.3.0](https://github.com/cothema/drakkar-ui/compare/v0.2.1...v0.3.0) (2025-03-07)
 
