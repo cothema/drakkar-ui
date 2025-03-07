@@ -1,6 +1,6 @@
 import React from "react";
 import {faEnvelopeOpen} from "@fortawesome/free-solid-svg-icons/faEnvelopeOpen";
-import {ChipButton} from "../../../atoms/ChipButton/ChipButton";
+import {ChipButton} from "../../../../atoms/ChipButton/ChipButton";
 
 type ContactMailChipButtonProps = {
   title?: string;

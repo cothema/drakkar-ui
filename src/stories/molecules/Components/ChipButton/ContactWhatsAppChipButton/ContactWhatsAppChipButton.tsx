@@ -1,5 +1,5 @@
 import React from "react";
-import {ChipButton} from "../../../atoms/ChipButton/ChipButton";
+import {ChipButton} from "../../../../atoms/ChipButton/ChipButton";
 import {faWhatsapp} from "@fortawesome/free-brands-svg-icons/faWhatsapp";
 
 type ContactMailChipButtonProps = {

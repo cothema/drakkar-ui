@@ -2,7 +2,7 @@ import type {Meta, StoryObj} from "@storybook/react";
 import {ContactPhoneChipButton} from "./ContactPhoneChipButton";
 
 const meta: Meta<typeof ContactPhoneChipButton> = {
-  title: "Drakkar UI Molecules/Chip Button/Contact Phone Chip Button",
+  title: "Drakkar UI Molecules/Components/Chip Button/Contact Phone Chip Button",
   component: ContactPhoneChipButton,
   tags: ["autodocs"],
   argTypes: {

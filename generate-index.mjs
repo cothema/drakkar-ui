@@ -52,4 +52,4 @@ exports += "\n// Export CSS styles\n" +
 
 writeFileSync("src/index.ts", exports);
 
-console.log("✅  index.ts updated successfully! (Ignoring *.stories.* files)");
+console.log("✅  index.ts updated successfully!");

@@ -1,5 +1,5 @@
 import type {Meta, StoryObj} from "@storybook/react";
-import YouTubeVideoSection from "./YouTubeVideoSection";
+import {YouTubeVideoSection} from "./YouTubeVideoSection";
 
 const meta: Meta<typeof YouTubeVideoSection> = {
   title: "Drakkar UI Molecules/Sections/YouTube Video Section",
