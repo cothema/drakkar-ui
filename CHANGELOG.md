@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.5.0](https://github.com/cothema/drakkar-ui/compare/v0.4.0...v0.5.0) (2025-03-08)
+
+
+### Features
+
+* Created Faq component ([143e0f7](https://github.com/cothema/drakkar-ui/commit/143e0f70b6da6afc82484440ee9094375e0e5bc5))
+
 ## [0.4.0](https://github.com/cothema/drakkar-ui/compare/v0.3.0...v0.4.0) (2025-03-07)
 
 
