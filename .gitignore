@@ -34,7 +34,6 @@ yarn-error.log*
 .storybook/build/
 .storybook/.cache/
 *.storybook.log
-src/stories/generated/
 
 # Tailwind build artifacts
 *.css.map

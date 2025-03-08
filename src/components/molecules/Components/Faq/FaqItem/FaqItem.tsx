@@ -1,5 +1,3 @@
-'use client'; // for Next.js
-
 import React, {FC, ReactNode, useState} from 'react';
 
 interface FaqItemProps {

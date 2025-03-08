@@ -3,7 +3,7 @@
   "version": "0.5.0",
   "description": "Modular UI Kit for React & Tailwind by Cothema",
   "main": "dist/index.js",
-  "module": "dist/index.esm.js",
+  "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "files": [
     "dist"
@@ -40,15 +40,15 @@
     "standard-version": "^9.5.0",
     "storybook": "^8.6.3",
     "tailwindcss": "^3.4.17",
-    "tsup": "^6.0.0",
+    "tsup": "^8.4.0",
     "typescript": "^5.8.2",
-    "vite": "^4.5.9",
+    "vite": "^6.2.1",
     "vitest": "^3.0.7"
   },
   "scripts": {
-    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "build": "tsup",
     "build-storybook": "storybook build",
-    "dev": "tsup src/index.ts --format esm,cjs --dts --watch",
+    "dev": "tsup --watch",
     "prepare": "npm run build",
     "release": "node generate-index.mjs && standard-version && git push --follow-tags && npm publish --access public",
     "storybook": "storybook dev -p 6006"

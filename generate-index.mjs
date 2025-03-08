@@ -1,7 +1,7 @@
 import {readdirSync, statSync, writeFileSync} from "fs";
 import {join, relative} from "path";
 
-const basePath = "./src/stories";
+const basePath = "./src/components";
 const componentDirs = ["atoms", "molecules"];
 
 let exports = "// Auto-generated component exports\n\n";
@@ -40,7 +40,7 @@ componentDirs.forEach((dir) => {
                 .replace(".ts", "");
 
             const componentName = relativePath.split("/").pop();
-            exports += `export { ${componentName} } from "./stories/${relativePath}";\n`;
+            exports += `export { ${componentName} } from "./components/${relativePath}";\n`;
         });
     } catch (err) {
         console.warn(`⚠️  Warning: Directory "${dirPath}" does not exist. Skipping.`);

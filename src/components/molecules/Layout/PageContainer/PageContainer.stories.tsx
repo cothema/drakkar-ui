@@ -5,11 +5,6 @@ const meta: Meta<typeof PageContainer> = {
   title: "Drakkar UI Molecules/Layout/Page Container",
   component: PageContainer,
   tags: ["autodocs"],
-  args: {
-    heading: {control: "text"},
-    description: {control: "text"},
-    children: {control: "text"},
-  },
 };
 
 export default meta;

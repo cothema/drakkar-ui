@@ -5,9 +5,6 @@ const meta: Meta<typeof YouTubeVideoSection> = {
   title: "Drakkar UI Molecules/Sections/YouTube Video Section",
   component: YouTubeVideoSection,
   tags: ["autodocs"],
-  args: {
-    videoId: {control: "text"},
-  },
 };
 
 export default meta;
