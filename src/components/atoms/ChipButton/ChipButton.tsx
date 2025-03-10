@@ -19,7 +19,7 @@ export const ChipButton: React.FC<ChipButtonProps> = (
   return (
     <button
       title={title}
-      className="mx-2 px-4 py-2 rounded-full bg-gray-200 text-black"
+      className="mx-2 px-4 py-2 rounded-full bg-light text-black"
       {...rest}
     >
       {faIcon && <FontAwesomeIcon icon={faIcon} className="me-2"/>}
