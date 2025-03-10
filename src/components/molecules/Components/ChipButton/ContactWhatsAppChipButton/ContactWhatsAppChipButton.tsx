@@ -2,11 +2,11 @@ import React from "react";
 import {ChipButton} from "../../../../atoms/ChipButton/ChipButton";
 import {faWhatsapp} from "@fortawesome/free-brands-svg-icons/faWhatsapp";
 
-type ContactMailChipButtonProps = {
+type ContactWhatsAppChipButtonProps = {
   title?: string;
 };
 
-export const ContactWhatsAppChipButton: React.FC<ContactMailChipButtonProps> = ({title}) => {
+export const ContactWhatsAppChipButton: React.FC<ContactWhatsAppChipButtonProps> = ({title}) => {
   return (
     <ChipButton
       title={title}
