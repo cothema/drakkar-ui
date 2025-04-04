@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.5.3](https://github.com/cothema/drakkar-ui/compare/v0.5.2...v0.5.3) (2025-04-04)
+
+
+### Features
+
+* Do not show unnecessary elements in YouTubeVideo component ([91466fe](https://github.com/cothema/drakkar-ui/commit/91466fe4d846c8d4fb0a80c09170302f163c21ed))
+
 ### [0.5.2](https://github.com/cothema/drakkar-ui/compare/v0.5.1...v0.5.2) (2025-03-10)
 
 ### [0.5.1](https://github.com/cothema/drakkar-ui/compare/v0.5.0...v0.5.1) (2025-03-08)
