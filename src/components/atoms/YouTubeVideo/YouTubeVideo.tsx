@@ -8,7 +8,7 @@ export const YouTubeVideo: React.FC<YouTubeVideoProps> = ({videoId, ...rest}) =>
   return (
     <iframe
       height="500"
-      src={`https://www.youtube.com/embed/${videoId}`}
+      src={`https://www.youtube.com/embed/${videoId}?rel=0&modestbranding=1&cc_load_policy=0`}
       title="YouTube video player"
       style={{width: "100%"}}
       frameBorder="0"
